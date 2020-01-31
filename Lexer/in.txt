@@ -1,0 +1,24 @@
+int a;
+cout << "enter first number: ";
+cin >> a; // получение от пользователя первого слагаемого
+cout << "+" << endl;
+
+int b;
+cout << "enter second number: ";
+cin >> b; // получение от пользователя второго слагаемого
+cout << '='  << endl;
+"\n"
+"cout \n"
+"ondros
+int sum
+/*sum = 0x1A;
+int k = 01011110b;
+int k = 10001000b;
+cout << sum << endl;
+return 0;*/ sum = 0;
+sum
+crack
+/* новый коментарий 
+
+
+новый коментраний
