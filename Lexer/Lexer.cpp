@@ -50,6 +50,10 @@ Token Lexer::GetToken()
 			}
 			if ( m_currentState != m_startState )
 			{
+				if ( StringToTokenType( m_currentState->GetName() ) == TokenType::Integer && value.length() > 8 )
+				{
+					return Token{ value, TokenType::Unexpected, m_row, temp };
+				}
 				return Token{ value, StringToTokenType( m_currentState->GetName() ), m_row, temp };
 			}
 		}
